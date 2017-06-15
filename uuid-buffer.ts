@@ -8,6 +8,6 @@ export function toBuffer(uuid:string):Buffer {
 export function toString(buffer:Buffer):string {
   if (buffer.length != 16) throw new Error(`Invalid buffer length for uuid: ${buffer.length}`);
   const str = buffer.toString('hex');
-  return `${str.slice(0, 7)}-${str.slice(8, 11)}-${str.slice(12, 15)}-${str.slice(16, 19)}-${str.slice(20)}`;
+  return `${str.slice(0, 8)}-${str.slice(8, 12)}-${str.slice(12, 16)}-${str.slice(16, 20)}-${str.slice(20)}`;
 }
 
