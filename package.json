@@ -1,0 +1,21 @@
+{
+  "name": "uuid-buffer",
+  "version": "1.0.0",
+  "description": "Converts UUID strings to and from buffers",
+  "main": "./dist/uuid-buffer.js",
+  "typings": "./dist/uuid-buffer.d.ts",
+  "author": "David Tsai",
+  "license": "MIT",
+  "keywords": [
+    "uuid",
+    "buffer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidtsai/uuid-buffer.git"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.31",
+    "typescript": "^2.3.4"
+  }
+}
