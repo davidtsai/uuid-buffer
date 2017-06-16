@@ -1,6 +1,6 @@
 {
   "name": "uuid-buffer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts UUID strings to and from buffers",
   "main": "./dist/uuid-buffer.js",
   "typings": "./dist/uuid-buffer.d.ts",
